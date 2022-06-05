@@ -1,0 +1,29 @@
+li{
+  list-style: none;
+}
+.control input {
+  height: 30px;
+  width: 300px;
+}
+input:focus{
+  outline: none !important;
+}
+
+.red input {
+  border:  1px solid red;
+}
+.btn{
+  border: none;
+  height: 30px;
+  width: 305px;
+  background: #74e078;
+  margin: 6px 25px;
+  margin-top: 25px;
+  color: white;
+}
+.btn:disabled{
+  background-color: gray;
+}
+.span{
+  cursor: pointer;
+}
