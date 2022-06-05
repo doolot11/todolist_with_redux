@@ -38,7 +38,7 @@ if(data.title.match(/[0-9]/)){
 }
 
 let isTitle=false
-if(data.title && data.price && data.date ){
+if(data.title && data.price && data.date && !validation){
 	isTitle=true
 }else{
 isTitle=false
@@ -55,7 +55,7 @@ const submitHandler=(e)=>{
 }
 
 const titleClasses = validation ? 'control red' : "control"
-console.log(validation);
+
 	return(
 <AppWrapper>
 		<section>

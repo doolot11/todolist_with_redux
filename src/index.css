@@ -8,7 +8,9 @@ li{
 input:focus{
   outline: none !important;
 }
-
+p{
+  color: red;
+}
 .red input {
   border:  1px solid red;
 }

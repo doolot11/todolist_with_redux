@@ -18,13 +18,13 @@ const UserList = (props) => {
 
 function onDelete(id){
     dispatch(deleteExpenses(id))
-    console.log(id);
 }
 
     return (
         <div >
             <Wrapp>
             <span  key={props.id} > {props.title} </span>
+            <span>${props.price} </span>
             <span>{props.date}</span>
             <span className='span' onClick={()=>onDelete(props.id)}>X</span>
              </Wrapp>
